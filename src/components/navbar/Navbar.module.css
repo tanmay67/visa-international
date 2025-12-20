@@ -1,0 +1,14 @@
+.navLink {
+  /* transition: all 0.5s ease-in; */
+}
+
+.navLinkUnderline {
+  width: 0%;
+  height: 2px;
+  background-color: #7c474a;
+  transition: width 0.5s ease-in;
+}
+
+.navLink:hover .navLinkUnderline {
+  width: 100%;
+}
