@@ -9,14 +9,7 @@ export default function Team() {
       phone: "+91 94440 42100",
       email: "anujgupta210@gmail.com",
       image: "/images/anuj.jpeg",
-    },
-    {
-      name: "Shivi Gupta",
-      role: "CRM",
-      phone: "+91 87544 37700",
-      email: "shivigupta1115@gmail.com",
-      image: "/images/shivi.jpeg",
-    },
+    }
   ];
 
   return (
@@ -39,7 +32,7 @@ export default function Team() {
         The passionate people behind Visa International
       </motion.p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 place-items-center lg:mx-60">
+      <div className="flex justify-center items-center margin-auto">
         {team.map((member, index) => (
           <motion.div
             key={index}
