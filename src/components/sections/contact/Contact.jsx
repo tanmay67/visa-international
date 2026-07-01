@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import Image from "next/image";
 
-let phoneNumber = "+918754437700";
+let phoneNumber = "+919444042100";
 let emailId = "team@visainternational.org";
 
 export default function ContactUs() {
